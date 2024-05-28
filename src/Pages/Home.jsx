@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Hero from "../components/Hero";
 import backgroundVideo from "../assets/gg.mp4"
 import product1 from "../assets/product1.jpg"
 import product2 from "../assets/product2.jpg"
@@ -31,7 +30,24 @@ const Home = () => {
     }, []);
     return (
         <div>
-            <Hero video={backgroundVideo} background="" img="" text1="Red" text2="Zet" text3=" Incense Stick" />
+            <div className="hero w-full">
+                <video autoPlay loop muted id="backgroundVideo">
+                    <source
+                        src={backgroundVideo}
+                        type="video/mp4"
+                    />
+                </video>
+                <div className="hero-content flex-row h-auto">
+                    <div className="w-[40%]">
+                    </div>
+                    <div className="w-[60%]">
+                        <h1 className="sm:text-5xl font-bold text-2xl mb-2 text-center"><span className='text-white'>{"Red"}</span><span className='text-white'>{"Zet"}</span><span className="text-white">{" Incense Stick"}</span></h1>
+                        <span className="text-white" id="heroDesktopText">RedZet Incense sticks knock on the gate of god and ensure permanent happiness and prosperity in life. enhance the ambiance of homes with premium-quality incense products while
+                            prioritizing environmental friendliness and customer satisfaction.</span>
+                        <span className="text-white" id="heroMobileText">RedZet knock the gate of god and ensure permanent happiness and prosperity.</span>
+                    </div>
+                </div>
+            </div>
             <div className="bg-base-100 shadow-xl text-center items-center justify-center flex mt-4 mb-5 pb-5 ml-2 mr-2">
                 <div className="card-body items-center">
                     <h2 className="card-title text-center">These are Our Aromatic, and Symbolism collections.</h2>
