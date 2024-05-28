@@ -20,11 +20,11 @@ const Contact = () => {
     return (
         <div>
             <Hero video="" background={background} img={ganesh} text1="Connect with us and Start new journy with us" />
-            <div className="card lg:card-side flex" data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2">
+            <div className="card md:card-side flex" data-aos="zoom-in">
+                <figure className="productimg md:w-1/2">
                     <img src={contactImage1} alt="Agarbatti" className="p-1 rounded-4" />
                 </figure>
-                <div className="lg:w-1/2 flex items-center">
+                <div className="md:w-1/2 flex items-center">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Contact Information</h2>
@@ -58,11 +58,11 @@ const Contact = () => {
             </div>
 
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={community} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Join Our Community</h2>
