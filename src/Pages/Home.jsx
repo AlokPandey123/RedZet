@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Hero from "../components/Hero";
 import backgroundVideo from "../assets/gg.mp4"
 import product1 from "../assets/product1.jpg"
 import product2 from "../assets/product2.jpg"
@@ -48,6 +49,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
             <div className="bg-base-100 shadow-xl text-center items-center justify-center flex mt-4 mb-5 pb-5 ml-2 mr-2">
                 <div className="card-body items-center">
                     <h2 className="card-title text-center">These are Our Aromatic, and Symbolism collections.</h2>
@@ -60,11 +63,11 @@ const Home = () => {
 
 
 
-            <div className="card lg:card-side flex" data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2">
+            <div className="card md:card-side flex" data-aos="zoom-in">
+                <figure className="productimg md:w-1/2">
                     <img src={product1} alt="Agarbatti" className="p-1 rounded-4" />
                 </figure>
-                <div className="lg:w-1/2 flex items-center">
+                <div className="md:w-1/2 flex items-center">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Kanak Premium Agarbatti</h2>
@@ -80,11 +83,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={product2} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Champa fragrance Dhoop Cones</h2>
@@ -98,9 +101,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:card-side  " data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2"><img src={product3} alt="Agarbatti" className="p-1 rounded-4" /></figure>
-                <div className="m-auto lg:w-1/2">
+            <div className="card md:card-side  " data-aos="zoom-in">
+                <figure className="productimg md:w-1/2"><img src={product3} alt="Agarbatti" className="p-1 rounded-4" /></figure>
+                <div className="m-auto md:w-1/2">
                     <div className="card w-full ">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Lavender Dhoop</h2>
@@ -116,11 +119,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={product4} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Kanak Premium Agarbatti</h2>
@@ -136,9 +139,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:card-side  " data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2"><img src={product5} alt="Agarbatti" className="p-1 rounded-4" /></figure>
-                <div className="m-auto lg:w-1/2">
+            <div className="card md:card-side  " data-aos="zoom-in">
+                <figure className="productimg md:w-1/2"><img src={product5} alt="Agarbatti" className="p-1 rounded-4" /></figure>
+                <div className="m-auto md:w-1/2">
                     <div className="card w-full ">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Kewda fragrance Dhoop Cones</h2>
@@ -152,11 +155,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={product6} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Mogra Dhoop</h2>
@@ -170,9 +173,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:card-side  " data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2"><img src={product7} alt="Agarbatti" className="p-1 rounded-4" /></figure>
-                <div className="m-auto lg:w-1/2">
+            <div className="card md:card-side  " data-aos="zoom-in">
+                <figure className="productimg md:w-1/2"><img src={product7} alt="Agarbatti" className="p-1 rounded-4" /></figure>
+                <div className="m-auto md:w-1/2">
                     <div className="card w-full ">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Sandalwood Dhoop</h2>
@@ -186,11 +189,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={product8} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Rose Dhoop</h2>
@@ -204,9 +207,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:card-side  " data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2"><img src={product9} alt="Agarbatti" className="p-1 rounded-4" /></figure>
-                <div className="m-auto lg:w-1/2">
+            <div className="card md:card-side  " data-aos="zoom-in">
+                <figure className="productimg md:w-1/2"><img src={product9} alt="Agarbatti" className="p-1 rounded-4" /></figure>
+                <div className="m-auto md:w-1/2">
                     <div className="card w-full ">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Gulab fragrance Dhoop Cones</h2>
@@ -222,11 +225,11 @@ const Home = () => {
             </div>
 
 
-            <div className="card lg:flex lg:flex-row-reverse" data-aos="zoom-in">
-                <figure className="productimg w-full lg:w-1/2">
+            <div className="card md:flex md:flex-row-reverse" data-aos="zoom-in">
+                <figure className="productimg w-full md:w-1/2">
                     <img src={product10} alt="Agarbatti" className="p-1 rounded-4 h-full w-full object-cover" />
                 </figure>
-                <div className="m-auto w-full lg:w-1/2">
+                <div className="m-auto w-full md:w-1/2">
                     <div className="card w-full">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Guggle fragrance Dhoop Cones</h2>
@@ -240,9 +243,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="card lg:card-side  " data-aos="zoom-in">
-                <figure className="productimg lg:w-1/2"><img src={product11} alt="Agarbatti" className="p-1 rounded-4" /></figure>
-                <div className="m-auto lg:w-1/2">
+            <div className="card md:card-side  " data-aos="zoom-in">
+                <figure className="productimg md:w-1/2"><img src={product11} alt="Agarbatti" className="p-1 rounded-4" /></figure>
+                <div className="m-auto md:w-1/2">
                     <div className="card w-full ">
                         <div className="card-body productdes">
                             <h2 className="text-center text-xl font-bold">Beat Mosquito Agarbatti sticks</h2>
