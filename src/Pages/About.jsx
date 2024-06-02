@@ -24,8 +24,8 @@ const About = () => {
                 <div className="card-body items-center">
                     <h1 className="text-2xl font-bold">Our History</h1>
                     <p className="w-full sm:w-2/4" id="content">
-                        In 2017, our journey began with the establishment of our first manufacturing plant on Raebareli Road in Lucknow under the venture company Shri Krishna Industries, marking our commitment to excellence in the incense industry.
-                        Since 2024, RedZet Essentials Pvt. Ltd. has achieved significant milestones. Our strategic expansion into key cities like Faizabad, Gonda, and Ambedkar Nagar has strengthened our distribution network, enabling us to reach more customers effectively.
+                        In 2017, our journey began with the establishment of manufacturing plant near Raebareli Road in Lucknow under the venture company Shri Krishna Industries, marking our commitment to excellence in the incense industry.
+                        Since 2024, RedZet Essentials Pvt. Ltd. has achieved significant milestones. Our strategic expansion in western Uttar Pradesh has strengthened our distribution network, enabling us to reach more customers effectively.
                         At RedZet Essentials, we pride ourselves on our innovative product offerings, including premium agarbatti, mosquito agarbatti, wet dhoopwatti, and dry dhoopcone. All our products are meticulously tested for environmental safety and superior fragrance delivery. With a goal to reach 10 lakh households in the upcoming quarter, we are dedicated to setting new benchmarks in product quality, innovation, and customer trust within the incense industry.
 
                     </p>
@@ -40,7 +40,7 @@ const About = () => {
                         Dear Valued Customers,
                         We are delighted to bring you RedZet Essentials, a brand committed to excellence in
                         providing premium-quality incense products that enrich your spiritual experiences. Our
-                        journey began with a vision to create products that enhance the ambiance of homes while
+                        journey began with a vision to create products that enhance the home ambiance while
                         upholding environmental sustainability and customer satisfaction.
                         At RedZet, we blend tradition with innovation, offering a range of Agarbattis, wet
                         dhoopwatti, and dhoopcone meticulously crafted for your rituals and daily prayers. Each
@@ -87,7 +87,7 @@ const About = () => {
                             The Redzet Empowerment Initiative is designed to provide aspiring entrepreneurs and artisans with the tools, resources, and mentorship needed to turn their passion for incense making into a thriving business. Through a combination of training workshops, mentorship programs, and financial support.Specialization in premium agarbatti, mosquito agarbatti, dhoopwatti, and dhoopcone
                             with top-class fragrances.
                             Manufacturing plant located in Lucknow, Uttar Pradesh, ensuring quality control.
-                            Distribution network in key cities like Faizabad, Gonda, and Ambedkar Nagar.
+                            Distribution network in western Uttar Pradesh.
                             Goal of reaching 10 lakh households in the upcoming quarter, emphasizing wide-scale
                             accessibility.
                             Focus on environmentally friendly products, tested for safety and quality assurance.
