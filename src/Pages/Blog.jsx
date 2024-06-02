@@ -28,7 +28,7 @@ const Blog = () => {
                     <BlogCard image={blogImage4} heading="Material world" content="In every puff of incense smoke, there lies a message of letting go and transcending the material world. " hastag1="#prosparity" hastag2="#Happiness" hastag3="#Peace" />
                 </div>
             </div>
-            <div className="flex blogContainer1">
+            <div className="flex blogContainer2">
                 <div className="flex divContainer">
                     <BlogCard image={blogImage5} heading="Serving others" content="As the incense stick diminishes, it teaches us the virtue of selflessness, serving others until our very end. " hastag1="#prosparity" hastag2="#Happiness" hastag3="#Peace" />
                     <BlogCard image={blogImage6} heading="Divine presence" content="Incense sticks are a reminder of the divine presence in every moment, urging us to live with mindfulness and grace. " hastag1="#prosparity" hastag2="#Happiness" hastag3="#Peace" />
