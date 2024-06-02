@@ -50,6 +50,11 @@ const Contact = () => {
                                         For Bulk orders,
                                     </h2>
 
+                                    <h2>
+                                        Address: 545Ka/KP076 Para Rajajipuram 
+                                        <br />Lucknow 226017
+                                    </h2>
+
                                 </div>
                             </div>
                         </div>
