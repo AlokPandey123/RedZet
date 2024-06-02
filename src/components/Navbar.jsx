@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   return (
@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">
           <li><Link to={`./home`}>Home</Link></li>
           <li><Link to={`./about`}>About</Link></li>
-          <li><Link to={`./blog`}>Blog'S</Link></li>
+          <li><Link to={`./blog`}>Blogs</Link></li>
           <li><Link to={`./contact`}>Contact</Link></li>
         </ul>
       </div>
@@ -21,13 +21,22 @@ export default function Navbar() {
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link to={`./home`}>Home</Link></li>
             <li><Link to={`./about`}>About</Link></li>
-            <li><Link to={`./blog`}>Blog'S</Link></li>
+            <li><Link to={`./blog`}>Blogs</Link></li>
             <li><Link to={`./contact`}>Contact</Link></li>
           </ul>
         </div>
       </div>
       
       <div className="navbar-center">
+        
+          
+            <h2 className='text-xl font-bold'  id='companyName'>RedZet Essentials Pvt. Ltd.</h2>
+         
+    
+      </div>
+
+
+      <div className="navbar-end">
         
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
           <div className="w-20">
