@@ -74,6 +74,10 @@
     display: flex;
 }
 
+#companyName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 @media screen and (max-width:900px){
     .blogContainer2
@@ -83,7 +87,11 @@
     .blogContainer1{
         flex-direction: column;
         
-        
+      
+    }
+    #companyName{
+        font-size: 13px;
+        font-weight: bold;
     }
     .blogCard{
         margin: 20px;
