@@ -35,7 +35,7 @@ const About = () => {
 
             <div className="bg-base-100 shadow-xl text-center items-center justify-center flex mt-4 mb-5 pb-5 ml-2 mr-2" data-aos="zoom-in">
                 <div className="card-body items-center">
-                    <h1 className="text-2xl font-bold">Massage from Director</h1>
+                    <h1 className="text-2xl font-bold">Message from Director</h1>
                     <p className="w-full sm:w-2/4"id="content" >
                         Dear Valued Customers,
                         We are delighted to bring you RedZet Essentials, a brand committed to excellence in
